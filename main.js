@@ -139,7 +139,7 @@ player_update();
 
 }
 function right(){
-    if (player_x <= 1000)
+    if (player_x <= 950)
 {
 player_x = player_x + block_img_width;
 console.log("Block image width = " + block_img_width);
