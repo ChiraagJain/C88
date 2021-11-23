@@ -117,7 +117,7 @@ player_update();
 
 }
 function down(){
-    if (player_y <= 500 )
+    if (player_y <= 600 )
 {
 player_y = player_y + block_img_height;
 console.log("Block image height = " + block_img_height);
@@ -139,7 +139,7 @@ player_update();
 
 }
 function right(){
-    if (player_x <= 900)
+    if (player_x <= 1000)
 {
 player_x = player_x + block_img_width;
 console.log("Block image width = " + block_img_width);
